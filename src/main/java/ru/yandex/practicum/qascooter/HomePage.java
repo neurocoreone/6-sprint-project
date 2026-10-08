@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage extends BasePage {
 
     //ссылка на страницу сервиса
-    private static final String HomePaige = "https://qa-scooter.education-services.ru/";
+    private static final String HOME_PAGE = "https://qa-scooter.education-services.ru/";
 
     //локатор для куки
     private By cookieButton = By.id("rcc-confirm-button");
@@ -37,7 +37,7 @@ public class HomePage extends BasePage {
 
 // открытие главной страницы
 public void openSite() {
-    driver.get(HomePaige);
+    driver.get(HOME_PAGE);
 }
 
     //закрыть оно с кукамси
